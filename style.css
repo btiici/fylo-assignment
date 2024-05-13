@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "karla", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem auto;
+    width: 90%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    color: hsl(238, 22%, 44%);
+}
+
+.first{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 90%;
+   margin: auto;
+}
+
+.first img{
+    width: 100%;
+    height: 90%;
+}
+
+.info1{
+    margin-top: 4rem;
+}
+
+h2{
+    width: 70%;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 1rem;
+}
+
+p{
+    width: 70%;
+    color: hsl(238, 22%, 44%);
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+
+.info1 input{
+    margin-top: 1rem;
+    padding: 10px;
+    width: 15rem;
+    margin-right: 1rem;
+}
+
+.info1 button{
+    padding: 12px;
+    width: 10rem;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.info1 button:hover{
+    background-color: hsl(224, 93%, 68%);
+}
+
+.second{
+    margin-top: 1rem;
+    background-image: url("./images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cover{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 450px;
+    margin: auto;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.info2 p{
+    width: 50%;
+}
+
+.illus2{
+    width: 100%; 
+}
+
+.connect{
+    display: flex;
+    align-items: center;
+    color: hsl(170, 45%, 43%);
+    gap: 5px;
+    font-size: 1rem;
+}
+
+.connect:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.review{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+}
+
+.review p{
+    width: 100%;
+    font-size: 12px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.three{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    color: white;
+}
+
+.three p{
+    color: white;
+    width: 50%;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.three input{
+    margin-top: 1rem;
+    padding: 10px;
+    width: 15rem;
+}
+
+.three button{
+    padding: 12px;
+    width: 10rem;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.three button:hover{
+    background-color: hsl(224, 93%, 48%);
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 3rem 4rem;
+    font-size: 12px;
+}
