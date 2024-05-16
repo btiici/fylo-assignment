@@ -104,13 +104,9 @@ p{
     color: hsl(170, 45%, 43%);
     gap: 5px;
     font-size: 1rem;
-}
-
-.connect:hover{
-    text-decoration: underline;
     cursor: pointer;
+    text-decoration: underline;
 }
-
 .review{
     background-color: white;
     width: 50%;
@@ -175,6 +171,10 @@ footer{
     color: white;
     padding: 3rem 4rem;
     font-size: 12px;
+}
+
+footer img{
+    filter: brightness(0) invert(1);
 }
 
 .info{
@@ -263,5 +263,8 @@ footer{
     .cover{
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    .three p{
+        width: 80%;
     }
 }
